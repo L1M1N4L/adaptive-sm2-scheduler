@@ -1,0 +1,14 @@
+# Core dependencies for Adaptive SM-2 Scheduler
+numpy>=1.21.0
+
+# Optional: For dataset integration (uncomment when needed)
+# datasets>=2.0.0
+
+# Optional: For additional testing (uncomment when needed)  
+# pytest>=6.0.0
+# pytest-cov>=2.0.0
+
+# Optional: For development (uncomment when needed)
+# black>=21.0.0
+# flake8>=3.8.0
+# mypy>=0.800
