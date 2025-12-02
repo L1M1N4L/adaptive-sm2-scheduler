@@ -23,6 +23,7 @@ from .base import (
 )
 
 from .sm2 import SM2Scheduler, SM2StandaloneCard
+from .hybrid import HybridScheduler
 
 __all__ = [
     'BaseScheduler',
@@ -32,6 +33,7 @@ __all__ = [
     'RatingConverter',
     'SM2Scheduler',
     'SM2StandaloneCard',
+    'HybridScheduler',
     'exponential_forgetting_curve',
     'calculate_half_life_from_recall'
 ]

@@ -162,6 +162,12 @@ class BaseScheduler(ABC):
         """
         pass
     
+    def reset_state(self):
+        """Reset all scheduler state for fair comparison."""
+        self.states.clear()
+        self.total_reviews = 0
+        self.total_items = 0
+    
     @abstractmethod
     def calculate_half_life(self, user_id: str, item_id: str) -> float:
         """
